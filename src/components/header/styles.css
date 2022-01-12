@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-left:300px;
+    margin-right:  300px;
+  }
+  
+  .youtube-logo {
+    height: 40px;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+    height: 40px;
+  }
+  
+  .search-input {
+    width: 100%;
+    font-size: inherit;
+    padding: .4em;
+    border: 1px solid #777;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+  }
+  
+  .search-btn {
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 1px solid #777;
+    background-color: transparent;
+    border-left: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+
+  }
+  
+  .search-btn:hover {
+    background-color: #F0F0F0;
+  }
+  
+  .menu-icons {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 20px;
+  }
+  .menu-icons text {
+    color: #1A1824;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .menu-channel-icon {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background-color: #AAA;
+  }
+
+  .join-btn{
+    background-color: #47af42;
+    color: white !important;
+    padding: 0.5em;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .myprofile-btn{
+    color: #47af42 !important ;
+  }
